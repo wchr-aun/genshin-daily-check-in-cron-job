@@ -14,7 +14,7 @@ jobs:
             -H 'accept: application/json, text/plain, */*' \
             -H 'accept-language: en-US,en;q=0.9,th-TH;q=0.8,th;q=0.7' \
             -H 'content-type: application/json;charset=UTF-8' \
-            -H 'cookie: ${{ secrets.COOKIE }} \
+            -H 'cookie: ${{ secrets.COOKIE }}' \
             -H 'origin: https://act.hoyolab.com' \
             -H 'referer: https://act.hoyolab.com/' \
             -H 'sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="102", "Google Chrome";v="102"' \
